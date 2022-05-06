@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+.myBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+    padding: 100px;
+    border: 1px solid #93c47c;
+}
+
+.header {
+    justify-content: center;
+    text-align: center;
+    background-color: #93c47c;
+    padding: 1px 0px;
+}
+
+h1 {
+    font-size: 16px;
+    color: white;
+    padding: 3px 1px;
+    margin: 0px;
+}
+
+ul {
+    margin-top: 5px;
+    align-items: left;
+}
+
+li::before{
+    color: red;
+}
+
+li {
+    margin: 3px;
+    list-style-type: circle;
+    color: #f09d0c;
+}
+
+li:hover {
+    color: black;
+}
+
+.newInput {
+    color: #93c47c;
+}
+
+.textInput {
+    border: 2px solid #93c47c;
+    margin-right: 2px;
+}
+
+.addSkills {
+    background-color: white;
+    border: 2px solid #93c47c;
+}
+

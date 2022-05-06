@@ -35,8 +35,16 @@ li::before{
 
 li {
     margin: 3px;
-    list-style-type: circle;
+    list-style-type: none;
     color: #f09d0c;
+}
+i {
+    margin-right: 15px;
+    color: white;
+    background-color: red;
+    padding: 1px;
+    align-content: left;
+
 }
 
 li:hover {

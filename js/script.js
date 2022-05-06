@@ -9,7 +9,7 @@ $(document).ready(function () {
   $(".addSkills").click(function () {
     var string = $(".textInput").val();
     $(".mySkills").append(
-      `<li class='liSkills'>${string}</li>`
+      `<li class='liSkills'><i class="fa-solid fa-x"></i> ${string}</li>`
     );
     console.log(string);
   });
